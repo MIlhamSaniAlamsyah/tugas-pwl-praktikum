@@ -68,9 +68,9 @@
                                 {{ __('Setelah proses dilaksanakan. Data akan dihilangkan secara permanen.') }}
                             </p>
                             <div class="mt-6 flex justify-end">
-                                <x-secondary-button x-on:click="$dispatch('close')">
+                                <x-primary-button x-on:click="$dispatch('close')">
                                     {{ __('Cancel') }}
-                                </x-secondary-button>
+                                </x-primary-button>
                                 <x-danger-button class="ml-3">
                                     {{ __('Delete!!!') }}
                                 </x-danger-button>

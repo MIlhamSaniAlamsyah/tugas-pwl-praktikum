@@ -74,7 +74,7 @@
                             <x-input-error class="mt-2" :messages="$errors->get('cover')" />
                             <x-text-input type="hidden" name="old_cover"value="{{ $book->cover }}"/>
                         </div>
-                        <x-secondary-button tag="a" href="{{ route('book') }}">Cancel</x-secondary-button>
+                        <x-primary-button tag="a" href="{{ route('book') }}">Cancel</x-primary-button>
                         <x-primary-button value="true">Update</x-primary-button>
                     </form>
 
